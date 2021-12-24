@@ -46,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				8698C413277562670011703C /* Neumorphic_light_dark */,
+				8698C41A2775626B0011703C /* Preview Content */,
 				8698C412277562670011703C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,13 +64,12 @@
 			children = (
 				8698C414277562670011703C /* Neumorphic_light_darkApp.swift */,
 				8698C416277562670011703C /* ContentView.swift */,
-				8698C4182775626B0011703C /* Assets.xcassets */,
-				8698C41A2775626B0011703C /* Preview Content */,
 				8698C422277568320011703C /* CustomTabBar.swift */,
 				8698C424277577500011703C /* CustomTabBarButton.swift */,
 				8698C42827757FE40011703C /* NeumorphicButton.swift */,
 				8698C42A27758ABE0011703C /* DarkNeumorphicButton.swift */,
 				8698C42627757F200011703C /* Styles.swift */,
+				8698C4182775626B0011703C /* Assets.xcassets */,
 			);
 			path = Neumorphic_light_dark;
 			sourceTree = "<group>";

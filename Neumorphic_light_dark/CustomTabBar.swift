@@ -15,62 +15,11 @@ struct CustomTabBar: View {
         
         HStack{
             
-            Button {
-                // Do something
-            } label: {
-                VStack{
-                    GeometryReader { geo in
-                        
-                        VStack(alignment: .center, spacing: 4) {
-                            Image(systemName: "person")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 24, height: 24)
-                            Text("View 1")
-                                .bold()
-                        }
-                        .frame(width: geo.size.width, height: geo.size.height)
-                    }
-                }
-            }
+            CustomTabBarButton(buttonText: "Explore", imageName: "figure.walk.circle")
             
-            Button {
-                // Do something
-            } label: {
-                VStack{
-                    GeometryReader { geo in
-                        
-                        VStack(alignment: .center, spacing: 4) {
-                            Image(systemName: "person")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 24, height: 24)
-                            Text("View 1")
-                                .bold()
-                        }
-                        .frame(width: geo.size.width, height: geo.size.height)
-                    }
-                }
-            }
+            CustomTabBarButton(buttonText: "Create", imageName: "wand.and.stars.inverse")
             
-            Button {
-                // Do something
-            } label: {
-                VStack{
-                    GeometryReader { geo in
-                        
-                        VStack(alignment: .center, spacing: 4) {
-                            Image(systemName: "person")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 24, height: 24)
-                            Text("View 1")
-                                .bold()
-                        }
-                        .frame(width: geo.size.width, height: geo.size.height)
-                    }
-                }
-            }
+            CustomTabBarButton(buttonText: "Profile", imageName: "person")
             
         }
         .frame(height: 82)

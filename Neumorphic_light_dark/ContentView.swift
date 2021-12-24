@@ -10,19 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        VStack{
-            
-            Text("Hello, world!")
-                .padding()
-            
-            Spacer()
-            
-            CustomTabBar()
-        }
-        .background(LinearGradient(gradient: Gradient(colors: [Color("Background1"), Color("Background2")/*, Color("Background3")*/]), startPoint: .top, endPoint: .bottomTrailing))
         
         
-    }
+            
+            VStack{
+                
+                Text("Hello, world!")
+                    .padding()
+                
+                Spacer()
+                
+                CustomTabBar()
+            }
+            .background(LinearGradient(gradient: Gradient(colors: [Color("background1"), Color("background2"), Color("background3")]), startPoint: .top, endPoint: .bottomTrailing))
+          
+        
+        
+        
+    } // End body
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -12,6 +12,10 @@
 		8698C4192775626B0011703C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8698C4182775626B0011703C /* Assets.xcassets */; };
 		8698C41C2775626B0011703C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8698C41B2775626B0011703C /* Preview Assets.xcassets */; };
 		8698C423277568320011703C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698C422277568320011703C /* CustomTabBar.swift */; };
+		8698C425277577500011703C /* CustomTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698C424277577500011703C /* CustomTabBarButton.swift */; };
+		8698C42727757F200011703C /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698C42627757F200011703C /* Styles.swift */; };
+		8698C42927757FE40011703C /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698C42827757FE40011703C /* NeumorphicButton.swift */; };
+		8698C42B27758ABE0011703C /* DarkNeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698C42A27758ABE0011703C /* DarkNeumorphicButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		8698C4182775626B0011703C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8698C41B2775626B0011703C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8698C422277568320011703C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		8698C424277577500011703C /* CustomTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarButton.swift; sourceTree = "<group>"; };
+		8698C42627757F200011703C /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		8698C42827757FE40011703C /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
+		8698C42A27758ABE0011703C /* DarkNeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkNeumorphicButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 				8698C4182775626B0011703C /* Assets.xcassets */,
 				8698C41A2775626B0011703C /* Preview Content */,
 				8698C422277568320011703C /* CustomTabBar.swift */,
+				8698C424277577500011703C /* CustomTabBarButton.swift */,
+				8698C42827757FE40011703C /* NeumorphicButton.swift */,
+				8698C42A27758ABE0011703C /* DarkNeumorphicButton.swift */,
+				8698C42627757F200011703C /* Styles.swift */,
 			);
 			path = Neumorphic_light_dark;
 			sourceTree = "<group>";
@@ -142,7 +154,11 @@
 			files = (
 				8698C417277562670011703C /* ContentView.swift in Sources */,
 				8698C423277568320011703C /* CustomTabBar.swift in Sources */,
+				8698C425277577500011703C /* CustomTabBarButton.swift in Sources */,
+				8698C42727757F200011703C /* Styles.swift in Sources */,
+				8698C42B27758ABE0011703C /* DarkNeumorphicButton.swift in Sources */,
 				8698C415277562670011703C /* Neumorphic_light_darkApp.swift in Sources */,
+				8698C42927757FE40011703C /* NeumorphicButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

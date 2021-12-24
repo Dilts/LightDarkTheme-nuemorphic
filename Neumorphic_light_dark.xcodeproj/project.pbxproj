@@ -11,6 +11,7 @@
 		8698C417277562670011703C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698C416277562670011703C /* ContentView.swift */; };
 		8698C4192775626B0011703C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8698C4182775626B0011703C /* Assets.xcassets */; };
 		8698C41C2775626B0011703C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8698C41B2775626B0011703C /* Preview Assets.xcassets */; };
+		8698C423277568320011703C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698C422277568320011703C /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8698C416277562670011703C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8698C4182775626B0011703C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8698C41B2775626B0011703C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8698C422277568320011703C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				8698C416277562670011703C /* ContentView.swift */,
 				8698C4182775626B0011703C /* Assets.xcassets */,
 				8698C41A2775626B0011703C /* Preview Content */,
+				8698C422277568320011703C /* CustomTabBar.swift */,
 			);
 			path = Neumorphic_light_dark;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8698C417277562670011703C /* ContentView.swift in Sources */,
+				8698C423277568320011703C /* CustomTabBar.swift in Sources */,
 				8698C415277562670011703C /* Neumorphic_light_darkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -46,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				8698C413277562670011703C /* Neumorphic_light_dark */,
-				8698C41A2775626B0011703C /* Preview Content */,
 				8698C412277562670011703C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,13 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				8698C414277562670011703C /* Neumorphic_light_darkApp.swift */,
-				8698C416277562670011703C /* ContentView.swift */,
-				8698C422277568320011703C /* CustomTabBar.swift */,
-				8698C424277577500011703C /* CustomTabBarButton.swift */,
-				8698C42827757FE40011703C /* NeumorphicButton.swift */,
-				8698C42A27758ABE0011703C /* DarkNeumorphicButton.swift */,
+				8698C4552775C1D20011703C /* Views */,
 				8698C42627757F200011703C /* Styles.swift */,
 				8698C4182775626B0011703C /* Assets.xcassets */,
+				8698C41A2775626B0011703C /* Preview Content */,
 			);
 			path = Neumorphic_light_dark;
 			sourceTree = "<group>";
@@ -80,6 +76,34 @@
 				8698C41B2775626B0011703C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8698C4532775C1860011703C /* Neumorphic */ = {
+			isa = PBXGroup;
+			children = (
+				8698C42827757FE40011703C /* NeumorphicButton.swift */,
+				8698C42A27758ABE0011703C /* DarkNeumorphicButton.swift */,
+			);
+			path = Neumorphic;
+			sourceTree = "<group>";
+		};
+		8698C4542775C1AD0011703C /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				8698C422277568320011703C /* CustomTabBar.swift */,
+				8698C424277577500011703C /* CustomTabBarButton.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		8698C4552775C1D20011703C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8698C416277562670011703C /* ContentView.swift */,
+				8698C4542775C1AD0011703C /* Tab Bar */,
+				8698C4532775C1860011703C /* Neumorphic */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

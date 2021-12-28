@@ -13,7 +13,8 @@ struct CustomTabBarButton: View {
     var imageName: String
     
     var body: some View {
-        
+        ZStack{
+            LinearGradient(Color.darkStart, Color.darkEnd)
         Button {
             // Do something
         } label: {
@@ -33,6 +34,7 @@ struct CustomTabBarButton: View {
                     .frame(width: geo.size.width, height: geo.size.height)
                 }
             }
+        }
         }
         
     }

@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        
-        
+        ZStack{
+            
+            LinearGradient(gradient: Gradient(colors: [Color("background1"), Color("background2"), Color("background3")]), startPoint: .top, endPoint: .bottomTrailing)
             
             VStack{
                 
@@ -21,16 +21,15 @@ struct ContentView: View {
                 Spacer()
                 
                 CustomTabBar()
+                    .padding(.bottom)
             }
-            .background(LinearGradient(gradient: Gradient(colors: [Color("background1"), Color("background2"), Color("background3")]), startPoint: .top, endPoint: .bottomTrailing))
-          
-        
+        }.ignoresSafeArea()
         
         
     } // End body
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider { 
     static var previews: some View {
         Group {
             ContentView()

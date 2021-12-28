@@ -9,9 +9,9 @@ import SwiftUI
 
 struct DarkNeumorphicButton: View {
     var body: some View {
-        ZStack {
+        
+        ZStack{
             
-            LinearGradient(Color.darkStart, Color.darkEnd)
             
             Button {
                 // do something
@@ -19,17 +19,21 @@ struct DarkNeumorphicButton: View {
                 Image(systemName: "leaf.circle")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 40, height: 40)
-                    .foregroundColor(Color("text-buttons"))
+                    .frame(width: 30, height: 30)
+                
             }
             .buttonStyle(DarkButtonStyle())
             
         }
+            
+            
+            
+        
     }
 }
 
-//struct DarkNeumorphicButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DarkNeumorphicButton()
-//    }
-//}
+struct DarkNeumorphicButton_Previews: PreviewProvider {
+    static var previews: some View {
+        DarkNeumorphicButton()
+    }
+}
